@@ -1,0 +1,557 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages Settings android should renders correctly 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    title="Settings"
+  />
+  <ForwardRef(View)
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "backgroundColor": "#E2E4E5",
+        },
+      ]
+    }
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "flexDirection": "row",
+          "paddingHorizontal": 20,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <ForwardRef(Text)
+        style={
+          Object {
+            "flex": 1,
+            "fontSize": 14,
+          }
+        }
+      >
+        Enable advanced features.
+      </ForwardRef(Text)>
+      <Switch
+        onValueChange={[MockFunction]}
+        thumbTintColor="#325776"
+        value={true}
+      />
+    </ForwardRef(View)>
+    <ForwardRef(View)
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <ForwardRef(Text)
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        If enabled, you'll have access to features reserved for users with a deep knowledge of how Monica works.
+      </ForwardRef(Text)>
+      <ForwardRef(Text)
+        style={
+          Object {
+            "color": "#676767",
+            "fontSize": 12,
+            "marginTop": 10,
+          }
+        }
+      >
+        Version: 1.0.0
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <ForwardRef(View)
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingHorizontal": 20,
+            "paddingVertical": 15,
+          }
+        }
+      >
+        <ForwardRef(Text)
+          style={
+            Object {
+              "color": "#1361cb",
+            }
+          }
+        >
+          Logout
+        </ForwardRef(Text)>
+      </ForwardRef(View)>
+    </TouchableOpacity>
+    <ForwardRef(View)
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "#676767",
+          "fontSize": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Most illustrations used in this app come from Freepik
+    </ForwardRef(Text)>
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "#676767",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "marginBottom": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Designed by freepik.com
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+</ForwardRef(View)>
+`;
+
+exports[`Pages Settings android should renders correctly 2`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    title="Settings"
+  />
+  <ForwardRef(View)
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "backgroundColor": "#E2E4E5",
+        },
+      ]
+    }
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "flexDirection": "row",
+          "paddingHorizontal": 20,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <ForwardRef(Text)
+        style={
+          Object {
+            "flex": 1,
+            "fontSize": 14,
+          }
+        }
+      >
+        Enable advanced features.
+      </ForwardRef(Text)>
+      <Switch
+        onValueChange={[MockFunction]}
+        thumbTintColor="#325776"
+        value={false}
+      />
+    </ForwardRef(View)>
+    <ForwardRef(View)
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <ForwardRef(Text)
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        If enabled, you'll have access to features reserved for users with a deep knowledge of how Monica works.
+      </ForwardRef(Text)>
+      <ForwardRef(Text)
+        style={
+          Object {
+            "color": "#676767",
+            "fontSize": 12,
+            "marginTop": 10,
+          }
+        }
+      >
+        Version: 1.0.0
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <ForwardRef(View)
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingHorizontal": 20,
+            "paddingVertical": 15,
+          }
+        }
+      >
+        <ForwardRef(Text)
+          style={
+            Object {
+              "color": "#1361cb",
+            }
+          }
+        >
+          Logout
+        </ForwardRef(Text)>
+      </ForwardRef(View)>
+    </TouchableOpacity>
+    <ForwardRef(View)
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "#676767",
+          "fontSize": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Most illustrations used in this app come from Freepik
+    </ForwardRef(Text)>
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "#676767",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "marginBottom": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Designed by freepik.com
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+</ForwardRef(View)>
+`;
+
+exports[`Pages Settings ios should renders correctly 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    title="Settings"
+  />
+  <ForwardRef(View)
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "backgroundColor": "#E2E4E5",
+        },
+      ]
+    }
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "flexDirection": "row",
+          "paddingHorizontal": 20,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <ForwardRef(Text)
+        style={
+          Object {
+            "flex": 1,
+            "fontSize": 14,
+          }
+        }
+      >
+        Enable advanced features.
+      </ForwardRef(Text)>
+      <Switch
+        onValueChange={[MockFunction]}
+        thumbTintColor={null}
+        value={true}
+      />
+    </ForwardRef(View)>
+    <ForwardRef(View)
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <ForwardRef(Text)
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        If enabled, you'll have access to features reserved for users with a deep knowledge of how Monica works.
+      </ForwardRef(Text)>
+      <ForwardRef(Text)
+        style={
+          Object {
+            "color": "#676767",
+            "fontSize": 12,
+            "marginTop": 10,
+          }
+        }
+      >
+        Version: 1.0.0
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <ForwardRef(View)
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingHorizontal": 20,
+            "paddingVertical": 15,
+          }
+        }
+      >
+        <ForwardRef(Text)
+          style={
+            Object {
+              "color": "#1361cb",
+            }
+          }
+        >
+          Logout
+        </ForwardRef(Text)>
+      </ForwardRef(View)>
+    </TouchableOpacity>
+    <ForwardRef(View)
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "#676767",
+          "fontSize": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Most illustrations used in this app come from Freepik
+    </ForwardRef(Text)>
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "#676767",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "marginBottom": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Designed by freepik.com
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+</ForwardRef(View)>
+`;
+
+exports[`Pages Settings ios should renders correctly 2`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    title="Settings"
+  />
+  <ForwardRef(View)
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "backgroundColor": "#E2E4E5",
+        },
+      ]
+    }
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "flexDirection": "row",
+          "paddingHorizontal": 20,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <ForwardRef(Text)
+        style={
+          Object {
+            "flex": 1,
+            "fontSize": 14,
+          }
+        }
+      >
+        Enable advanced features.
+      </ForwardRef(Text)>
+      <Switch
+        onValueChange={[MockFunction]}
+        thumbTintColor={null}
+        value={false}
+      />
+    </ForwardRef(View)>
+    <ForwardRef(View)
+      style={
+        Object {
+          "paddingHorizontal": 20,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <ForwardRef(Text)
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        If enabled, you'll have access to features reserved for users with a deep knowledge of how Monica works.
+      </ForwardRef(Text)>
+      <ForwardRef(Text)
+        style={
+          Object {
+            "color": "#676767",
+            "fontSize": 12,
+            "marginTop": 10,
+          }
+        }
+      >
+        Version: 1.0.0
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <ForwardRef(View)
+        style={
+          Object {
+            "backgroundColor": "white",
+            "paddingHorizontal": 20,
+            "paddingVertical": 15,
+          }
+        }
+      >
+        <ForwardRef(Text)
+          style={
+            Object {
+              "color": "#1361cb",
+            }
+          }
+        >
+          Logout
+        </ForwardRef(Text)>
+      </ForwardRef(View)>
+    </TouchableOpacity>
+    <ForwardRef(View)
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "#676767",
+          "fontSize": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Most illustrations used in this app come from Freepik
+    </ForwardRef(Text)>
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "#676767",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "marginBottom": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Designed by freepik.com
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+</ForwardRef(View)>
+`;

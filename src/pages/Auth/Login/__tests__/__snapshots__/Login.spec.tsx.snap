@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages Login should renders correctly 1`] = `
+<KeyboardAwareScrollView
+  contentContainerStyle={
+    Object {
+      "flex": 1,
+    }
+  }
+  enableAutomaticScroll={true}
+  enableOnAndroid={false}
+  enableResetScrollToCoords={true}
+  extraHeight={75}
+  extraScrollHeight={0}
+  keyboardOpeningTime={250}
+  viewIsInsideTabBar={false}
+>
+  <ForwardRef(View)
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Back
+      onPress={[MockFunction]}
+    />
+    <ForwardRef(View)
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "paddingHorizontal": 30,
+          "width": "100%",
+        }
+      }
+    >
+      <ForwardRef(Image)
+        source={1}
+      />
+      <ForwardRef(Text)
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginBottom": 20,
+            "marginTop": 40,
+            "textAlign": "center",
+          }
+        }
+      >
+        Sign in with your account
+      </ForwardRef(Text)>
+      <LoginFormContainer
+        onSuccess={[Function]}
+      />
+    </ForwardRef(View)>
+    <ForwardRef(View)
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+  </ForwardRef(View)>
+</KeyboardAwareScrollView>
+`;

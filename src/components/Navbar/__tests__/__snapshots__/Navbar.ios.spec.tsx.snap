@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Navbar IOS should renders correctly 1`] = `
+<NavigationBar
+  containerStyle={Object {}}
+  leftButton={
+    <NavbarIOSBack
+      onPress={[MockFunction]}
+    />
+  }
+  rightButton={null}
+  statusBar={
+    Object {
+      "style": "light-content",
+    }
+  }
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
+  tintColor="#325776"
+  title={
+    Object {
+      "tintColor": "white",
+      "title": "My title",
+    }
+  }
+/>
+`;
+
+exports[`Components Navbar IOS should renders correctly 2`] = `
+<NavigationBar
+  containerStyle={Object {}}
+  leftButton={null}
+  rightButton={null}
+  statusBar={
+    Object {
+      "style": "light-content",
+    }
+  }
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
+  tintColor="#325776"
+  title={
+    Object {
+      "tintColor": "white",
+      "title": "My title",
+    }
+  }
+/>
+`;
+
+exports[`Components Navbar IOS should renders correctly 3`] = `
+<NavigationBar
+  containerStyle={Object {}}
+  leftButton={null}
+  rightButton={null}
+  statusBar={
+    Object {
+      "style": "light-content",
+    }
+  }
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
+  tintColor="#325776"
+  title={<Component />}
+/>
+`;

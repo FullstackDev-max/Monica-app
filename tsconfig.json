@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@api/*": ["src/api/*"],
+      "@api": ["src/api/index"],
+      "@i18n": ["src/i18n/index"],
+      "@models/*": ["src/models/*"],
+      "@models": ["src/models/index"],
+      "@theme/*": ["src/theme/*"],
+      "@theme": ["src/theme/index"],
+      "@components/*": ["src/components/*"],
+      "@components": ["src/components/index"],
+      "@utils/*": ["src/utils/*"],
+      "@utils": ["src/utils/index"],
+      "@redux/*": ["src/redux/*"],
+      "@navigator/*": ["src/navigator/*"],
+      "@src/*": ["src/*"],
+    },
+    "importHelpers": true,
+    "target": "es2015",
+    "jsx": "react",
+    "noEmit": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "lib": [ "dom", "es2015", "es2016" ],
+    "outDir": "./dist",
+    "types": ["react", "react-native", "jest"],
+    "skipLibCheck": true
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

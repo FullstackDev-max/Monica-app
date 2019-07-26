@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages Contact / Relationships should renders correctly 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "marginTop": 5,
+    }
+  }
+>
+  <ForwardRef(Text)
+    style={
+      Object {
+        "marginVertical": 30,
+        "textAlign": "center",
+      }
+    }
+  >
+    No relationship
+  </ForwardRef(Text)>
+</ForwardRef(View)>
+`;

@@ -1,0 +1,154 @@
+{
+  "name": "monica",
+  "version": "0.7.0",
+  "private": true,
+  "scripts": {
+    "rn": "react-native",
+    "commit": "commit",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "node node_modules/react-native/local-cli/cli.js run-android --appIdSuffix debug",
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "test": "jest",
+    "lint": "tslint -p tsconfig.json",
+    "ios:beta": "npm run test && npm run version:ios && cd ios && bundle exec fastlane beta",
+    "android:alpha": "npm run test && npm run version:android && cd android && bundle exec fastlane alpha",
+    "android:beta": "npm run test && npm run version:android && cd android && bundle exec fastlane beta",
+    "version:ios": "cd ios && bundle exec fastlane version version:$npm_package_version",
+    "version:android": "cd android && bundle exec fastlane version version:$npm_package_version",
+    "clean": "watchman watch-del-all && rm -rf node_modules && yarn && rm -rf $TMPDIR/react-* && rm -rf $TMPDIR/haste-map-react-native-packager-*",
+    "test:e2e": "detox test -c ios.sim.debug.iPhoneSE",
+    "test:e2e:build": "detox build -c ios.sim.debug.iPhoneSE",
+    "test:e2e:ci": "detox test --cleanup",
+    "test:e2e:build:ci": "detox build"
+  },
+  "dependencies": {
+    "@babel/core": "7.1.0",
+    "@babel/plugin-proposal-class-properties": "7.1.0",
+    "appcenter": "1.8.1",
+    "appcenter-analytics": "1.8.1",
+    "appcenter-crashes": "1.8.1",
+    "babel-core": "7.0.0-bridge.0",
+    "formik": "0.11.11",
+    "frisbee": "2.0.5",
+    "i18next": "11.9.0",
+    "metro-react-native-babel-preset": "0.45.3",
+    "moment": "tqc/moment#no-dynamic-import",
+    "react": "16.5.1",
+    "react-native": "0.57.1",
+    "react-native-actionsheet": "2.4.2",
+    "react-native-code-push": "5.4.2",
+    "react-native-device-info": "0.22.5",
+    "react-native-keyboard-aware-scroll-view": "0.7.2",
+    "react-native-navbar": "2.1.0",
+    "react-native-search-bar": "3.4.2",
+    "react-native-searchbar": "1.15.0",
+    "react-native-segmented-control-tab": "3.3.1",
+    "react-native-splash-screen": "3.1.1",
+    "react-native-vector-icons": "5.0.0",
+    "react-navigation": "2.16.0",
+    "react-redux": "5.0.7",
+    "redux": "4.0.0",
+    "redux-debounced": "0.5.0",
+    "redux-devtools-extension": "2.13.5",
+    "redux-thunk": "2.2.0",
+    "tslib": "1.9.3",
+    "typesafe-actions": "2.0.4"
+  },
+  "devDependencies": {
+    "@babel/parser": "7.1.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@commitlint/cli": "7.1.2",
+    "@commitlint/config-conventional": "7.1.2",
+    "@commitlint/prompt-cli": "7.1.2",
+    "@types/cheerio": "0.22.9",
+    "@types/detox": "7.3.0",
+    "@types/i18next": "11.9.0",
+    "@types/jest": "23.3.2",
+    "@types/react": "16.4.14",
+    "@types/react-native": "0.56.23",
+    "@types/react-redux": "6.0.9",
+    "babel-jest": "^23.6.0",
+    "codecov": "3.1.0",
+    "conventional-changelog-cli": "^2.0.5",
+    "detox": "9.0.1",
+    "enzyme": "3.6.0",
+    "enzyme-adapter-react-16": "1.5.0",
+    "enzyme-to-json": "3.3.4",
+    "greenkeeper-lockfile": "1.15.1",
+    "husky": "0.14.3",
+    "jest": "23.6.0",
+    "jest-junit-reporter": "1.1.0",
+    "prettier": "1.14.3",
+    "react-dom": "16.5.1",
+    "react-native-typescript-transformer": "1.2.10",
+    "react-test-renderer": "16.5.1",
+    "ts-jest": "^23.1.4",
+    "tslint": "5.11.0",
+    "tslint-config-prettier": "1.15.0",
+    "tslint-plugin-prettier": "2.0.0",
+    "tslint-react": "3.6.0",
+    "typescript": "3.0.3"
+  },
+  "detox": {
+    "test-runner": "jest",
+    "runner-config": "e2e/config.json",
+    "configurations": {
+      "ios.sim.debug.iPhone7": {
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/Monica.app",
+        "build": "xcodebuild -workspace ios/Monica.xcworkspace -scheme Monica -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone 7"
+      },
+      "ios.sim.release.iPhone7": {
+        "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/Monica.app",
+        "build": "xcodebuild -workspace ios/Monica.xcworkspace -scheme Monica -configuration Release -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone 7"
+      },
+      "ios.sim.debug.iPhoneX": {
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/Monica.app",
+        "build": "xcodebuild -workspace ios/Monica.xcworkspace -scheme Monica -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone X"
+      },
+      "ios.sim.release.iPhoneX": {
+        "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/Monica.app",
+        "build": "xcodebuild -workspace ios/Monica.xcworkspace -scheme Monica -configuration Release -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone X"
+      },
+      "ios.sim.debug.iPhone5s": {
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/Monica.app",
+        "build": "xcodebuild -workspace ios/Monica.xcworkspace -scheme Monica -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone 5s"
+      },
+      "ios.sim.release.iPhone5s": {
+        "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/Monica.app",
+        "build": "xcodebuild -workspace ios/Monica.xcworkspace -scheme Monica -configuration Release -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone 5s"
+      },
+      "ios.sim.debug.iPhoneSE": {
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/Monica.app",
+        "build": "xcodebuild -workspace ios/Monica.xcworkspace -scheme Monica -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone SE"
+      },
+      "ios.sim.release.iPhoneSE": {
+        "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/Monica.app",
+        "build": "xcodebuild -workspace ios/Monica.xcworkspace -scheme Monica -configuration Release -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone SE"
+      }
+    }
+  },
+  "greenkeeper": {
+    "commitMessages": {
+      "dependencyUpdate": "fix(package): update ${dependency} to version ${version}",
+      "devDependencyUpdate": "chore(package): update ${dependency} to version ${version}"
+    }
+  }
+}

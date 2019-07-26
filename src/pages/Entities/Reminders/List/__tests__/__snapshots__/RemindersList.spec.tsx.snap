@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages Reminders should display the reminder indicator in the footer if it is fetching 1`] = `
+<ForwardRef(View)
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      Object {
+        "marginVertical": 20,
+      },
+    ]
+  }
+>
+  <_class
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    indeterminate={true}
+    size="large"
+    style={
+      Object {
+        "height": 36,
+        "width": 36,
+      }
+    }
+    styleAttr="Normal"
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages Reminders should renders correctly with reminders and fetching 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    title="Reminders"
+  />
+  <FlatList
+    ListFooterComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "body": "My body",
+          "created_at": "1991-12-17",
+          "frequency_type": "year",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReached={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEndReachedThreshold={0.5}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages Reminders should renders correctly with reminders and fetching 2`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Pages Reminders should renders correctly with reminders and fetching 3`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    title="Reminders"
+  />
+  <FlatList
+    ListFooterComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "body": "My body",
+          "created_at": "1991-12-17",
+          "frequency_type": "month",
+        },
+        Object {
+          "body": "My body 2",
+          "created_at": "1993-12-17",
+          "frequency_type": "all_time",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReached={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEndReachedThreshold={0.5}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages Reminders should renders correctly with reminders and fetching 4`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Pages Reminders should renders correctly with reminders and fetching 5`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Pages Reminders should renders correctly without reminders and fetching 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    title="Reminders"
+  />
+  <FlatList
+    ListFooterComponent={[Function]}
+    data={Array []}
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReached={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEndReachedThreshold={0.5}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages Reminders should renders correctly without reminders and not fetching 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    title="Reminders"
+  />
+  <EmptyActivity
+    image={1}
+    subtitle="Your memory might let you down - we won’t."
+    title="Be reminded at the right time, for things that matter."
+  />
+</ForwardRef(View)>
+`;

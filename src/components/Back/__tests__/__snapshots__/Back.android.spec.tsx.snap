@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Back Android should renders correctly 1`] = `
+<TouchableWithoutFeedback
+  onPress={[MockFunction]}
+>
+  <Icon
+    allowFontScaling={false}
+    color="black"
+    name="arrow-back"
+    size={35}
+    style={
+      Object {
+        "left": 8,
+        "position": "absolute",
+        "top": 16,
+      }
+    }
+  />
+</TouchableWithoutFeedback>
+`;

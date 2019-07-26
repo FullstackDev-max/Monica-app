@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages Tasks should display the task indicator in the footer if it is fetching 1`] = `
+<ForwardRef(View)
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      Object {
+        "marginVertical": 20,
+      },
+    ]
+  }
+>
+  <_class
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    indeterminate={true}
+    size="large"
+    style={
+      Object {
+        "height": 36,
+        "width": 36,
+      }
+    }
+    styleAttr="Normal"
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages Tasks should renders correctly with tasks and fetching 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    title="Tasks"
+  />
+  <FlatList
+    ListFooterComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "completed": false,
+          "title": "My title",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReached={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEndReachedThreshold={0.5}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages Tasks should renders correctly with tasks and fetching 2`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Pages Tasks should renders correctly with tasks and fetching 3`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    title="Tasks"
+  />
+  <FlatList
+    ListFooterComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "completed": false,
+          "title": "My title",
+        },
+        Object {
+          "completed": true,
+          "description": "My desc",
+          "title": "My title 2",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReached={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEndReachedThreshold={0.5}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages Tasks should renders correctly with tasks and fetching 4`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Pages Tasks should renders correctly with tasks and fetching 5`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Pages Tasks should renders correctly without tasks and fetching 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    title="Tasks"
+  />
+  <FlatList
+    ListFooterComponent={[Function]}
+    data={Array []}
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReached={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEndReachedThreshold={0.5}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages Tasks should renders correctly without tasks and not fetching 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    title="Tasks"
+  />
+  <EmptyActivity
+    image={1}
+    subtitle="Let Monica manage stuff for you."
+    title="You have no excuses not to be multitask anymore."
+  />
+</ForwardRef(View)>
+`;

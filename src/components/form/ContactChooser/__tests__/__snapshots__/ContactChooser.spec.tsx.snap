@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components ContactChooser should renders correctly 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 30,
+    }
+  }
+>
+  <ContactAvatar
+    contact={
+      Object {
+        "first_name": "plouf",
+        "last_name": "nathie",
+      }
+    }
+    key="0"
+    size={40}
+  />
+  <ForwardRef(Text)
+    key="10"
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 10,
+      }
+    }
+  >
+    plouf nathie
+  </ForwardRef(Text)>
+  <Touchable
+    onPress={[Function]}
+  >
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "#325776",
+        }
+      }
+    >
+      Edit
+    </ForwardRef(Text)>
+  </Touchable>
+</ForwardRef(View)>
+`;
+
+exports[`Components ContactChooser should renders with an error 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 30,
+    }
+  }
+>
+  <ForwardRef(View)
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 30,
+      }
+    }
+  >
+    <ForwardRef(Text)>
+      No contact
+    </ForwardRef(Text)>
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+      testID="contact-chooser-error-undefined"
+    >
+       - 
+      dqwdqw
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+  <Touchable
+    onPress={[Function]}
+  >
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "#325776",
+        }
+      }
+    >
+      Edit
+    </ForwardRef(Text)>
+  </Touchable>
+</ForwardRef(View)>
+`;
+
+exports[`Components ContactChooser should renders without contact 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 30,
+    }
+  }
+>
+  <ForwardRef(View)
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 30,
+      }
+    }
+  >
+    <ForwardRef(Text)>
+      No contact
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+  <Touchable
+    onPress={[Function]}
+  >
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "#325776",
+        }
+      }
+    >
+      Edit
+    </ForwardRef(Text)>
+  </Touchable>
+</ForwardRef(View)>
+`;

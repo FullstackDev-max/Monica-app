@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Button Android should renders correctly 1`] = `
+<DummyTouchableNativeFeedback
+  disabled={false}
+  onPress={[Function]}
+>
+  <ForwardRef(View)
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgb(43, 187, 72)",
+          "borderRadius": 5,
+          "flexDirection": "row",
+          "height": 45,
+          "justifyContent": "center",
+          "marginVertical": 10,
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "white",
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      TEST
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+</DummyTouchableNativeFeedback>
+`;
+
+exports[`Components Button Android should renders correctly 2`] = `
+<DummyTouchableNativeFeedback
+  disabled={false}
+  onPress={[Function]}
+>
+  <ForwardRef(View)
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgb(43, 187, 72)",
+          "borderRadius": 5,
+          "flexDirection": "row",
+          "height": 45,
+          "justifyContent": "center",
+          "marginVertical": 10,
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "white",
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      QDWDQW
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+</DummyTouchableNativeFeedback>
+`;
+
+exports[`Components Button Android should renders correctly 3`] = `
+<DummyTouchableNativeFeedback
+  disabled={false}
+  onPress={[Function]}
+>
+  <ForwardRef(View)
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgb(43, 187, 72)",
+          "borderRadius": 5,
+          "flexDirection": "row",
+          "height": 45,
+          "justifyContent": "center",
+          "marginVertical": 10,
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "white",
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      QDWDQW
+    </ForwardRef(Text)>
+    <ForwardRef(ActivityIndicator)
+      animating={true}
+      color="#ffffff"
+      hidesWhenStopped={true}
+      size="small"
+      style={
+        Object {
+          "marginLeft": 10,
+        }
+      }
+    />
+  </ForwardRef(View)>
+</DummyTouchableNativeFeedback>
+`;
+
+exports[`Components Button Android should renders correctly 4`] = `
+<DummyTouchableNativeFeedback
+  disabled={true}
+  onPress={[Function]}
+>
+  <ForwardRef(View)
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgb(43, 187, 72)",
+          "borderRadius": 5,
+          "flexDirection": "row",
+          "height": 45,
+          "justifyContent": "center",
+          "marginVertical": 10,
+          "width": "100%",
+        },
+        Object {
+          "backgroundColor": "rgba(43, 187, 72, 0.4)",
+        },
+      ]
+    }
+  >
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "white",
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      QDWDQW
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+</DummyTouchableNativeFeedback>
+`;

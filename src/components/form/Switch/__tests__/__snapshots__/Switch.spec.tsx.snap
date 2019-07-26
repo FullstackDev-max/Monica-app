@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Switch android should renders correctly 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 30,
+    }
+  }
+>
+  <ForwardRef(View)
+    key="0"
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 30,
+      }
+    }
+  >
+    <ForwardRef(Text)>
+      My title
+    </ForwardRef(Text)>
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+      testID="switch-error-undefined"
+    >
+       
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+  <Switch
+    key="1"
+    onTintColor="#325776"
+    testID="input-undefined"
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Components Switch android should renders correctly 2`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 30,
+    }
+  }
+>
+  <ForwardRef(View)
+    key="0"
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 30,
+      }
+    }
+  >
+    <ForwardRef(Text)>
+      My title
+    </ForwardRef(Text)>
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+      testID="switch-error-undefined"
+    >
+       
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+  <Switch
+    key="1"
+    onTintColor="#325776"
+    testID="input-undefined"
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Components Switch ios should renders correctly 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 30,
+    }
+  }
+>
+  <ForwardRef(View)
+    key="0"
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 30,
+      }
+    }
+  >
+    <ForwardRef(Text)>
+      My title
+    </ForwardRef(Text)>
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+      testID="switch-error-undefined"
+    >
+       
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+  <Switch
+    key="1"
+    onTintColor="#325776"
+    testID="input-undefined"
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Components Switch ios should renders correctly 2`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 30,
+    }
+  }
+>
+  <ForwardRef(View)
+    key="0"
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 30,
+      }
+    }
+  >
+    <ForwardRef(Text)>
+      My title
+    </ForwardRef(Text)>
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+      testID="switch-error-undefined"
+    >
+       
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+  <Switch
+    key="1"
+    onTintColor="#325776"
+    testID="input-undefined"
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Components Switch ios should renders correctly 3`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 30,
+    }
+  }
+>
+  <ForwardRef(View)
+    key="0"
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 30,
+      }
+    }
+  >
+    <ForwardRef(Text)>
+      My title
+    </ForwardRef(Text)>
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+      testID="switch-error-undefined"
+    >
+       
+      my-error
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+  <Switch
+    key="1"
+    onTintColor="#325776"
+    testID="input-undefined"
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Components Switch ios should renders correctly 4`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 30,
+    }
+  }
+>
+  <ForwardRef(View)
+    key="0"
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 30,
+      }
+    }
+  >
+    <ForwardRef(Text)>
+      My title
+    </ForwardRef(Text)>
+    <ForwardRef(Text)
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+      testID="switch-error-undefined"
+    >
+       
+    </ForwardRef(Text)>
+  </ForwardRef(View)>
+  <Switch
+    key="1"
+    onTintColor="#325776"
+    testID="input-undefined"
+  />
+</ForwardRef(View)>
+`;

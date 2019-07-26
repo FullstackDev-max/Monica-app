@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages DebtsList should display the activity indicator in the footer if it is fetching 1`] = `
+<ForwardRef(View)
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      Object {
+        "marginVertical": 20,
+      },
+    ]
+  }
+>
+  <_class
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    indeterminate={true}
+    size="large"
+    style={
+      Object {
+        "height": 36,
+        "width": 36,
+      }
+    }
+    styleAttr="Normal"
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages DebtsList should renders correctly with debts and fetching 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    title="Debts"
+  />
+  <FlatList
+    ListFooterComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "contact": Object {
+            "first_name": "Theo",
+          },
+          "in_debt": "yes",
+          "reason": "My reason",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReached={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEndReachedThreshold={0.5}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages DebtsList should renders correctly with debts and fetching 2`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Pages DebtsList should renders correctly with debts and fetching 3`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    title="Debts"
+  />
+  <FlatList
+    ListFooterComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "contact": Object {
+            "first_name": "Theo",
+          },
+          "in_debt": "yes",
+          "reason": "My reason",
+        },
+        Object {
+          "contact": Object {
+            "first_name": "Bill",
+          },
+          "in_debt": "no",
+          "reason": "My reason 2",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReached={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEndReachedThreshold={0.5}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages DebtsList should renders correctly with debts and fetching 4`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Pages DebtsList should renders correctly with debts and fetching 5`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Pages DebtsList should renders correctly without debts and fetching 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    title="Debts"
+  />
+  <FlatList
+    ListFooterComponent={[Function]}
+    data={Array []}
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReached={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onEndReachedThreshold={0.5}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages DebtsList should renders correctly without debts and not fetching 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    title="Debts"
+  />
+  <EmptyActivity
+    image={1}
+    subtitle="But having no debts that you owe is a way to stay happy in your friendship."
+    title="Money doesn’t buy happiness."
+  />
+</ForwardRef(View)>
+`;

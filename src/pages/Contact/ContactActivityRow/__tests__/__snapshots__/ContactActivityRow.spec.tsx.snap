@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages Login should renders correctly 1`] = `
+<ForwardRef(View)>
+  <Touchable
+    onPress={[MockFunction]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 50,
+      }
+    }
+  >
+    <ForwardRef(Image)
+      source={
+        Object {
+          "uri": "image.net",
+        }
+      }
+      style={
+        Object {
+          "marginLeft": 5,
+          "marginRight": 10,
+        }
+      }
+    />
+    <ForwardRef(View)
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <ForwardRef(Text)>
+        MY TITLE
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+    <ForwardRef(Text)>
+      0
+    </ForwardRef(Text)>
+    <Icon
+      allowFontScaling={false}
+      color="#AAA"
+      name="ios-arrow-forward"
+      size={25}
+      style={
+        Object {
+          "marginLeft": 10,
+        }
+      }
+    />
+  </Touchable>
+  <ForwardRef(View)
+    style={
+      Object {
+        "backgroundColor": "#E2E4E5",
+        "height": 0.5,
+      }
+    }
+  />
+</ForwardRef(View)>
+`;
+
+exports[`Pages Login should renders correctly with last true 1`] = `
+<ForwardRef(View)>
+  <Touchable
+    onPress={[MockFunction]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 50,
+      }
+    }
+  >
+    <ForwardRef(Image)
+      source={
+        Object {
+          "uri": "image.net",
+        }
+      }
+      style={
+        Object {
+          "marginLeft": 5,
+          "marginRight": 10,
+        }
+      }
+    />
+    <ForwardRef(View)
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <ForwardRef(Text)>
+        MY TITLE
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+    <ForwardRef(Text)>
+      0
+    </ForwardRef(Text)>
+    <Icon
+      allowFontScaling={false}
+      color="#AAA"
+      name="ios-arrow-forward"
+      size={25}
+      style={
+        Object {
+          "marginLeft": 10,
+        }
+      }
+    />
+  </Touchable>
+</ForwardRef(View)>
+`;

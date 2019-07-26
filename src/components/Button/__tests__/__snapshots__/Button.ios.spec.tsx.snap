@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Button IOS should renders correctly 1`] = `
+<TouchableOpacity
+  activeOpacity={0.4}
+  disabled={false}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgb(43, 187, 72)",
+        "borderRadius": 5,
+        "flexDirection": "row",
+        "height": 45,
+        "justifyContent": "center",
+        "marginVertical": 10,
+        "width": "100%",
+      },
+      false,
+    ]
+  }
+>
+  <ForwardRef(Text)
+    style={
+      Object {
+        "color": "white",
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    Test
+  </ForwardRef(Text)>
+</TouchableOpacity>
+`;
+
+exports[`Components Button IOS should renders correctly 2`] = `
+<TouchableOpacity
+  activeOpacity={0.4}
+  disabled={false}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgb(43, 187, 72)",
+        "borderRadius": 5,
+        "flexDirection": "row",
+        "height": 45,
+        "justifyContent": "center",
+        "marginVertical": 10,
+        "width": "100%",
+      },
+      false,
+    ]
+  }
+>
+  <ForwardRef(Text)
+    style={
+      Object {
+        "color": "white",
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    qdwdqw
+  </ForwardRef(Text)>
+</TouchableOpacity>
+`;
+
+exports[`Components Button IOS should renders correctly 3`] = `
+<TouchableOpacity
+  activeOpacity={0.4}
+  disabled={false}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgb(43, 187, 72)",
+        "borderRadius": 5,
+        "flexDirection": "row",
+        "height": 45,
+        "justifyContent": "center",
+        "marginVertical": 10,
+        "width": "100%",
+      },
+      false,
+    ]
+  }
+>
+  <ForwardRef(Text)
+    style={
+      Object {
+        "color": "white",
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    My loading title
+  </ForwardRef(Text)>
+  <ForwardRef(ActivityIndicator)
+    animating={true}
+    color="#ffffff"
+    hidesWhenStopped={true}
+    size="small"
+    style={
+      Object {
+        "marginLeft": 10,
+      }
+    }
+  />
+</TouchableOpacity>
+`;
+
+exports[`Components Button IOS should renders correctly 4`] = `
+<TouchableOpacity
+  activeOpacity={0.4}
+  disabled={true}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgb(43, 187, 72)",
+        "borderRadius": 5,
+        "flexDirection": "row",
+        "height": 45,
+        "justifyContent": "center",
+        "marginVertical": 10,
+        "width": "100%",
+      },
+      Object {
+        "backgroundColor": "rgba(43, 187, 72, 0.4)",
+      },
+    ]
+  }
+>
+  <ForwardRef(Text)
+    style={
+      Object {
+        "color": "white",
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    qdwdqw
+  </ForwardRef(Text)>
+</TouchableOpacity>
+`;

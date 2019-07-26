@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Tabbar should renders correctly 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "backgroundColor": "#F8F7F7",
+      "borderColor": "#979797",
+      "borderTopWidth": 0.5,
+      "flexDirection": "row",
+      "height": 48,
+      "paddingBottom": 0,
+    }
+  }
+>
+  <Connect(ActionSheet) />
+  <TouchableWithoutFeedback
+    key="Contacts"
+    onPress={[Function]}
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 4,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#8d8d8d"
+        name="users"
+        size={25}
+      />
+      <ForwardRef(Text)
+        style={
+          Array [
+            Object {
+              "color": "#8d8d8d",
+              "fontSize": 10,
+            },
+            undefined,
+          ]
+        }
+      >
+        Contacts
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+  </TouchableWithoutFeedback>
+  <TouchableWithoutFeedback
+    key="Add"
+    onPress={[Function]}
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 4,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#8d8d8d"
+        name="plus-circled"
+        size={25}
+      />
+      <ForwardRef(Text)
+        style={
+          Array [
+            Object {
+              "color": "#8d8d8d",
+              "fontSize": 10,
+            },
+            undefined,
+          ]
+        }
+      >
+        Add
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+  </TouchableWithoutFeedback>
+  <TouchableWithoutFeedback
+    key="Settings"
+    onPress={[Function]}
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 4,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#8d8d8d"
+        name="cog"
+        size={25}
+      />
+      <ForwardRef(Text)
+        style={
+          Array [
+            Object {
+              "color": "#8d8d8d",
+              "fontSize": 10,
+            },
+            undefined,
+          ]
+        }
+      >
+        Settings
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+  </TouchableWithoutFeedback>
+</ForwardRef(View)>
+`;
+
+exports[`Components Tabbar should renders correctly 2`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "backgroundColor": "#F8F7F7",
+      "borderColor": "#979797",
+      "borderTopWidth": 0.5,
+      "flexDirection": "row",
+      "height": 48,
+      "paddingBottom": 0,
+    }
+  }
+>
+  <Connect(ActionSheet) />
+  <TouchableWithoutFeedback
+    key="Contacts"
+    onPress={[Function]}
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 4,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#1361cb"
+        name="users"
+        size={25}
+      />
+      <ForwardRef(Text)
+        style={
+          Array [
+            Object {
+              "color": "#8d8d8d",
+              "fontSize": 10,
+            },
+            Object {
+              "color": "#1361cb",
+            },
+          ]
+        }
+      >
+        Contacts
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+  </TouchableWithoutFeedback>
+  <TouchableWithoutFeedback
+    key="Add"
+    onPress={[Function]}
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 4,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#8d8d8d"
+        name="plus-circled"
+        size={25}
+      />
+      <ForwardRef(Text)
+        style={
+          Array [
+            Object {
+              "color": "#8d8d8d",
+              "fontSize": 10,
+            },
+            undefined,
+          ]
+        }
+      >
+        Add
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+  </TouchableWithoutFeedback>
+  <TouchableWithoutFeedback
+    key="Settings"
+    onPress={[Function]}
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 4,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#8d8d8d"
+        name="cog"
+        size={25}
+      />
+      <ForwardRef(Text)
+        style={
+          Array [
+            Object {
+              "color": "#8d8d8d",
+              "fontSize": 10,
+            },
+            undefined,
+          ]
+        }
+      >
+        Settings
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+  </TouchableWithoutFeedback>
+</ForwardRef(View)>
+`;
+
+exports[`Components Tabbar should renders correctly 3`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "backgroundColor": "#F8F7F7",
+      "borderColor": "#979797",
+      "borderTopWidth": 0.5,
+      "flexDirection": "row",
+      "height": 48,
+      "paddingBottom": 0,
+    }
+  }
+>
+  <Connect(ActionSheet) />
+  <TouchableWithoutFeedback
+    key="Contacts"
+    onPress={[Function]}
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 4,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#1361cb"
+        name="users"
+        size={25}
+      />
+      <ForwardRef(Text)
+        style={
+          Array [
+            Object {
+              "color": "#8d8d8d",
+              "fontSize": 10,
+            },
+            Object {
+              "color": "#1361cb",
+            },
+          ]
+        }
+      >
+        Contacts
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+  </TouchableWithoutFeedback>
+  <TouchableWithoutFeedback
+    key="Add"
+    onPress={[Function]}
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 4,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#8d8d8d"
+        name="plus-circled"
+        size={25}
+      />
+      <ForwardRef(Text)
+        style={
+          Array [
+            Object {
+              "color": "#8d8d8d",
+              "fontSize": 10,
+            },
+            undefined,
+          ]
+        }
+      >
+        Add
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+  </TouchableWithoutFeedback>
+  <TouchableWithoutFeedback
+    key="Settings"
+    onPress={[Function]}
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 4,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#8d8d8d"
+        name="cog"
+        size={25}
+      />
+      <ForwardRef(Text)
+        style={
+          Array [
+            Object {
+              "color": "#8d8d8d",
+              "fontSize": 10,
+            },
+            undefined,
+          ]
+        }
+      >
+        Settings
+      </ForwardRef(Text)>
+    </ForwardRef(View)>
+  </TouchableWithoutFeedback>
+</ForwardRef(View)>
+`;

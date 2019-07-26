@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages Notes should renders correctly (creating) 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    rightAction={[Function]}
+    rightIcon="add"
+    rightTitle="Add"
+    title="Add a note"
+  />
+  <ScrollView
+    keyboardDismissMode="on-drag"
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#E2E4E5",
+        }
+      }
+    >
+      <ForwardRef
+        contact={
+          Object {
+            "first_name": "Theo",
+          }
+        }
+        note={null}
+        onSuccess={[Function]}
+      />
+    </ForwardRef(View)>
+  </ScrollView>
+</ForwardRef(View)>
+`;
+
+exports[`Pages Notes should renders correctly (editing) 1`] = `
+<ForwardRef(View)
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Navbar
+    onBack={[MockFunction]}
+    rightAction={[Function]}
+    rightIcon="done"
+    rightTitle="Done"
+    title="Edit a note"
+  />
+  <ScrollView
+    keyboardDismissMode="on-drag"
+  >
+    <ForwardRef(View)
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#E2E4E5",
+        }
+      }
+    >
+      <ForwardRef
+        contact={
+          Object {
+            "first_name": "Theo",
+          }
+        }
+        note={
+          Object {
+            "body": "c",
+          }
+        }
+        onSuccess={[Function]}
+      />
+    </ForwardRef(View)>
+  </ScrollView>
+</ForwardRef(View)>
+`;
